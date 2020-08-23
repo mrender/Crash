@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Constants.h" />
+    <ClInclude Include="Source\Framework\Animation\Animator.h" />
+    <ClInclude Include="Source\Framework\Animation\Easing.h" />
+    <ClInclude Include="Source\Framework\Audio\Audio.h" />
+    <ClInclude Include="Source\Framework\Audio\AudioTypes.h" />
+    <ClInclude Include="Source\Framework\Core\Drawable.h" />
+    <ClInclude Include="Source\Framework\Core\Transformable.h" />
+    <ClInclude Include="Source\Framework\Debug\Log.h" />
+    <ClInclude Include="Source\Framework\Debug\Profile.h" />
+    <ClInclude Include="Source\Framework\Events\AudioEvent.h" />
+    <ClInclude Include="Source\Framework\Events\Event.h" />
+    <ClInclude Include="Source\Framework\Events\EventDispatcher.h" />
+    <ClInclude Include="Source\Framework\Events\EventHandler.h" />
+    <ClInclude Include="Source\Framework\Events\FullscreenEvent.h" />
+    <ClInclude Include="Source\Framework\Events\GamePadButtonDownEvent.h" />
+    <ClInclude Include="Source\Framework\Events\GamePadButtonUpEvent.h" />
+    <ClInclude Include="Source\Framework\Events\GamePadConnectedEvent.h" />
+    <ClInclude Include="Source\Framework\Events\GamePadDisconnectedEvent.h" />
+    <ClInclude Include="Source\Framework\Events\GamePadLeftThumbStickEvent.h" />
+    <ClInclude Include="Source\Framework\Events\GamePadLeftTriggerEvent.h" />
+    <ClInclude Include="Source\Framework\Events\GamePadRightThumbStickEvent.h" />
+    <ClInclude Include="Source\Framework\Events\GamePadRightTriggerEvent.h" />
+    <ClInclude Include="Source\Framework\Events\KeyDownEvent.h" />
+    <ClInclude Include="Source\Framework\Events\KeyRepeatEvent.h" />
+    <ClInclude Include="Source\Framework\Events\KeyUpEvent.h" />
+    <ClInclude Include="Source\Framework\Events\MouseButtonDownEvent.h" />
+    <ClInclude Include="Source\Framework\Events\MouseButtonUpEvent.h" />
+    <ClInclude Include="Source\Framework\Events\MouseMovementEvent.h" />
+    <ClInclude Include="Source\Framework\Events\MouseScrollWheelEvent.h" />
+    <ClInclude Include="Source\Framework\Events\ResizeEvent.h" />
+    <ClInclude Include="Source\Framework\Events\TextureResourceEvent.h" />
+    <ClInclude Include="Source\Framework\Events\UpdateEvent.h" />
+    <ClInclude Include="Source\Framework\GameDev2D.h" />
+    <ClInclude Include="Source\Framework\GameDev2D_Settings.h" />
+    <ClInclude Include="Source\Framework\Graphics\AnimatedSprite.h" />
+    <ClInclude Include="Source\Framework\Graphics\Camera.h" />
+    <ClInclude Include="Source\Framework\Graphics\Color.h" />
+    <ClInclude Include="Source\Framework\Graphics\GraphicTypes.h" />
+    <ClInclude Include="Source\Framework\Graphics\Polygon.h" />
+    <ClInclude Include="Source\Framework\Graphics\RenderTarget.h" />
+    <ClInclude Include="Source\Framework\Graphics\Shader.h" />
+    <ClInclude Include="Source\Framework\Graphics\Sprite.h" />
+    <ClInclude Include="Source\Framework\Graphics\SpriteAtlas.h" />
+    <ClInclude Include="Source\Framework\Graphics\SpriteBatch.h" />
+    <ClInclude Include="Source\Framework\Graphics\SpriteFont.h" />
+    <ClInclude Include="Source\Framework\Graphics\Texture.h" />
+    <ClInclude Include="Source\Framework\Graphics\VertexData.h" />
+    <ClInclude Include="Source\Framework\Input\GamePad.h" />
+    <ClInclude Include="Source\Framework\Input\Keyboard.h" />
+    <ClInclude Include="Source\Framework\Input\Mouse.h" />
+    <ClInclude Include="Source\Framework\IO\File.h" />
+    <ClInclude Include="Source\Framework\Math\Math.h" />
+    <ClInclude Include="Source\Framework\Math\Matrix.h" />
+    <ClInclude Include="Source\Framework\Math\Random.h" />
+    <ClInclude Include="Source\Framework\Math\Rotation.h" />
+    <ClInclude Include="Source\Framework\Math\Vector2.h" />
+    <ClInclude Include="Source\Framework\Services\AudioEngine\AudioEngine.h" />
+    <ClInclude Include="Source\Framework\Services\DebugUI\DebugUI.h" />
+    <ClInclude Include="Source\Framework\Services\Graphics\Graphics.h" />
+    <ClInclude Include="Source\Framework\Services\InputManager\InputManager.h" />
+    <ClInclude Include="Source\Framework\Services\ResourceManager\ResourceManager.h" />
+    <ClInclude Include="Source\Framework\Services\Services.h" />
+    <ClInclude Include="Source\Framework\Utils\Png\Png.h" />
+    <ClInclude Include="Source\Framework\Utils\Text\Text.h" />
+    <ClInclude Include="Source\Framework\Utils\Wave\Wave.h" />
+    <ClInclude Include="Source\Framework\Windows\Application.h" />
+    <ClInclude Include="Source\Framework\Windows\GameLoop.h" />
+    <ClInclude Include="Source\Framework\Windows\GameWindow.h" />
+    <ClInclude Include="Source\Framework\Windows\OpenGL\glext.h" />
+    <ClInclude Include="Source\Framework\Windows\OpenGL\OpenGLExtensions.h" />
+    <ClInclude Include="Source\Framework\Windows\OpenGL\wglext.h" />
+    <ClInclude Include="Source\Framework\Windows\resource.h" />
+    <ClInclude Include="Source\Framework\Windows\stdafx.h" />
+    <ClInclude Include="Source\Game.h" />
+    <ClInclude Include="Source\Libraries\jsoncpp\autolink.h" />
+    <ClInclude Include="Source\Libraries\jsoncpp\config.h" />
+    <ClInclude Include="Source\Libraries\jsoncpp\features.h" />
+    <ClInclude Include="Source\Libraries\jsoncpp\forwards.h" />
+    <ClInclude Include="Source\Libraries\jsoncpp\json.h" />
+    <ClInclude Include="Source\Libraries\jsoncpp\json_batchallocator.h" />
+    <ClInclude Include="Source\Libraries\jsoncpp\reader.h" />
+    <ClInclude Include="Source\Libraries\jsoncpp\value.h" />
+    <ClInclude Include="Source\Libraries\jsoncpp\writer.h" />
+    <ClInclude Include="Source\Libraries\lodepng\lodepng.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Framework\Animation\Animator.cpp" />
+    <ClCompile Include="Source\Framework\Animation\Easing.cpp" />
+    <ClCompile Include="Source\Framework\Audio\Audio.cpp" />
+    <ClCompile Include="Source\Framework\Core\Drawable.cpp" />
+    <ClCompile Include="Source\Framework\Core\Transformable.cpp" />
+    <ClCompile Include="Source\Framework\Debug\Log.cpp" />
+    <ClCompile Include="Source\Framework\Debug\Profile.cpp" />
+    <ClCompile Include="Source\Framework\Events\AudioEvent.cpp" />
+    <ClCompile Include="Source\Framework\Events\Event.cpp" />
+    <ClCompile Include="Source\Framework\Events\EventDispatcher.cpp" />
+    <ClCompile Include="Source\Framework\Events\EventHandler.cpp" />
+    <ClCompile Include="Source\Framework\Events\FullscreenEvent.cpp" />
+    <ClCompile Include="Source\Framework\Events\GamePadButtonDownEvent.cpp" />
+    <ClCompile Include="Source\Framework\Events\GamePadButtonUpEvent.cpp" />
+    <ClCompile Include="Source\Framework\Events\GamePadConnectedEvent.cpp" />
+    <ClCompile Include="Source\Framework\Events\GamePadDisconnectedEvent.cpp" />
+    <ClCompile Include="Source\Framework\Events\GamePadLeftThumbStickEvent.cpp" />
+    <ClCompile Include="Source\Framework\Events\GamePadLeftTriggerEvent.cpp" />
+    <ClCompile Include="Source\Framework\Events\GamePadRightThumbStickEvent.cpp" />
+    <ClCompile Include="Source\Framework\Events\GamePadRightTriggerEvent.cpp" />
+    <ClCompile Include="Source\Framework\Events\KeyDownEvent.cpp" />
+    <ClCompile Include="Source\Framework\Events\KeyRepeatEvent.cpp" />
+    <ClCompile Include="Source\Framework\Events\KeyUpEvent.cpp" />
+    <ClCompile Include="Source\Framework\Events\MouseButtonDownEvent.cpp" />
+    <ClCompile Include="Source\Framework\Events\MouseButtonUpEvent.cpp" />
+    <ClCompile Include="Source\Framework\Events\MouseMovementEvent.cpp" />
+    <ClCompile Include="Source\Framework\Events\MouseScrollWheelEvent.cpp" />
+    <ClCompile Include="Source\Framework\Events\ResizeEvent.cpp" />
+    <ClCompile Include="Source\Framework\Events\TextureResourceEvent.cpp" />
+    <ClCompile Include="Source\Framework\Events\UpdateEvent.cpp" />
+    <ClCompile Include="Source\Framework\GameDev2D.cpp" />
+    <ClCompile Include="Source\Framework\Graphics\AnimatedSprite.cpp" />
+    <ClCompile Include="Source\Framework\Graphics\Camera.cpp" />
+    <ClCompile Include="Source\Framework\Graphics\Color.cpp" />
+    <ClCompile Include="Source\Framework\Graphics\GraphicTypes.cpp" />
+    <ClCompile Include="Source\Framework\Graphics\Polygon.cpp" />
+    <ClCompile Include="Source\Framework\Graphics\RenderTarget.cpp" />
+    <ClCompile Include="Source\Framework\Graphics\Shader.cpp" />
+    <ClCompile Include="Source\Framework\Graphics\Sprite.cpp" />
+    <ClCompile Include="Source\Framework\Graphics\SpriteAtlas.cpp" />
+    <ClCompile Include="Source\Framework\Graphics\SpriteBatch.cpp" />
+    <ClCompile Include="Source\Framework\Graphics\SpriteFont.cpp" />
+    <ClCompile Include="Source\Framework\Graphics\Texture.cpp" />
+    <ClCompile Include="Source\Framework\Graphics\VertexData.cpp" />
+    <ClCompile Include="Source\Framework\Input\GamePad.cpp" />
+    <ClCompile Include="Source\Framework\Input\Keyboard.cpp" />
+    <ClCompile Include="Source\Framework\Input\Mouse.cpp" />
+    <ClCompile Include="Source\Framework\IO\File.cpp" />
+    <ClCompile Include="Source\Framework\Math\Math.cpp" />
+    <ClCompile Include="Source\Framework\Math\Matrix.cpp" />
+    <ClCompile Include="Source\Framework\Math\Random.cpp" />
+    <ClCompile Include="Source\Framework\Math\Rotation.cpp" />
+    <ClCompile Include="Source\Framework\Math\Vector2.cpp" />
+    <ClCompile Include="Source\Framework\Services\AudioEngine\AudioEngine.cpp" />
+    <ClCompile Include="Source\Framework\Services\DebugUI\DebugUI.cpp" />
+    <ClCompile Include="Source\Framework\Services\Graphics\Graphics.cpp" />
+    <ClCompile Include="Source\Framework\Services\InputManager\InputManager.cpp" />
+    <ClCompile Include="Source\Framework\Services\ResourceManager\ResourceManager.cpp" />
+    <ClCompile Include="Source\Framework\Services\Services.cpp" />
+    <ClCompile Include="Source\Framework\Utils\Png\Png.cpp" />
+    <ClCompile Include="Source\Framework\Utils\Text\Text.cpp" />
+    <ClCompile Include="Source\Framework\Utils\Wave\Wave.cpp" />
+    <ClCompile Include="Source\Framework\Windows\Application.cpp" />
+    <ClCompile Include="Source\Framework\Windows\GameLoop.cpp" />
+    <ClCompile Include="Source\Framework\Windows\GameWindow.cpp" />
+    <ClCompile Include="Source\Framework\Windows\OpenGL\OpenGLExtensions.cpp" />
+    <ClCompile Include="Source\Framework\Windows\stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\Libraries\jsoncpp\json_reader.cpp" />
+    <ClCompile Include="Source\Libraries\jsoncpp\json_value.cpp" />
+    <ClCompile Include="Source\Libraries\jsoncpp\json_writer.cpp" />
+    <ClCompile Include="Source\Libraries\lodepng\lodepng.cpp" />
+    <ClCompile Include="Source\Game.cpp" />
+    <ClCompile Include="Source\WinMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Fonts\heavy_data_150.json">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="Assets\Fonts\OpenSans-CondBold_22.json">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="Assets\Fonts\OpenSans-CondBold_32.json">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="Assets\Fonts\slkscr_32.json">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="Assets\Fonts\slkscr_42.json">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="Assets\Shaders\passThrough-debug.fsh">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="Assets\Shaders\passThrough-debug.gsh">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="Assets\Shaders\passThrough-debug.vsh">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="Assets\Shaders\passThrough-spriteBatch.fsh">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="Assets\Shaders\passThrough-spriteBatch.vsh">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="Assets\Shaders\passThrough-texure.fsh">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="Assets\Shaders\passThrough-texure.vsh">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="Assets\Shaders\passThrough.fsh">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="Assets\Shaders\passThrough.vsh">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="Source\Libraries\jsoncpp\json_internalarray.inl" />
+    <None Include="Source\Libraries\jsoncpp\json_internalmap.inl" />
+    <None Include="Source\Libraries\jsoncpp\json_valueiterator.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Fonts\heavy_data_150.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Image>
+    <Image Include="Assets\Fonts\OpenSans-CondBold_22.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Image>
+    <Image Include="Assets\Fonts\OpenSans-CondBold_32.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Image>
+    <Image Include="Assets\Fonts\slkscr_32.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Image>
+    <Image Include="Assets\Fonts\slkscr_42.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Image>
+    <Image Include="Assets\Images\Ship.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Image>
+    <Image Include="Source\Framework\Windows\Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Source\Framework\Windows\Resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="Source\Framework\Windows\DeclareDPIAware.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Assets\Audio\Fanfare.wav">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Media>
+    <Media Include="Assets\Audio\Secret.wav">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Media>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5B4F3AE6-46CD-46D8-BB74-330F3B13576B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>GameDev2D</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>build\Builds\$(TargetName)\$(Configuration)\</OutDir>
+    <IntDir>build\Intermediate Files\$(TargetName)\$(Configuration)\</IntDir>
+    <IncludePath>$(MSBuildProjectDirectory)\Source\Framework;$(MSBuildProjectDirectory)\Source\Libraries\lodepng\;$(MSBuildProjectDirectory)\Source\Libraries\jsoncpp\;$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+    <PreBuildEventUseInBuild>false</PreBuildEventUseInBuild>
+    <EnableMicrosoftCodeAnalysis>false</EnableMicrosoftCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(MSBuildProjectDirectory)\Source\Libraries\lodepng\;$(MSBuildProjectDirectory)\Source\Libraries\jsoncpp\;$(MSBuildProjectDirectory)\Source\Framework\;$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+    <OutDir>build\Builds\$(TargetName)\$(Configuration)\</OutDir>
+    <IntDir>build\Intermediate Files\$(TargetName)\$(Configuration)\</IntDir>
+    <PreBuildEventUseInBuild>false</PreBuildEventUseInBuild>
+    <EnableMicrosoftCodeAnalysis>false</EnableMicrosoftCodeAnalysis>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;DEBUG;_DEBUG;_WINDOWS;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_MSC_PLATFORM_TOOLSET_$(PlatformToolset);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ForcedIncludeFiles>stdafx.h</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/NODEFAULTLIB:MSVCRT %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+      <Message>
+      </Message>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>xcopy /y /s /i "$(ProjectDir)\Assets" "$(OutDir)\Assets" /E</Command>
+    </PreBuildEvent>
+    <PreBuildEvent>
+      <Message>Copying assets to output directory</Message>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_MSC_PLATFORM_TOOLSET_$(PlatformToolset);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ForcedIncludeFiles>stdafx.h</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+      <Message>
+      </Message>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>xcopy /y /s /i "$(ProjectDir)\Assets" "$(OutDir)\Assets" /E</Command>
+      <Message>Copying assets to output directory</Message>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

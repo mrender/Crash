@@ -1,0 +1,660 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{44c04c59-8338-4e24-a934-729932aeacf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Assets\Shaders">
+      <UniqueIdentifier>{550746e0-52b8-4ef1-b640-0e5954b500a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\lodepng">
+      <UniqueIdentifier>{5f146850-dd87-4bc1-b55a-bd4f49188ad5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\jsoncpp">
+      <UniqueIdentifier>{ec87974b-1e87-4f46-962a-aeb6d90dd08f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{db986f72-0d72-4e1c-ba63-207a33c1a6c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Core">
+      <UniqueIdentifier>{76e37d22-abae-4de3-98fe-aadcaad7761f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Events">
+      <UniqueIdentifier>{170bae54-99c6-426c-aabb-f2ef6141b0b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Graphics">
+      <UniqueIdentifier>{d279a355-5b19-4198-a147-eccccd3150d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Input">
+      <UniqueIdentifier>{cf7b508e-4709-4dec-b4be-7070ed10694b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\IO">
+      <UniqueIdentifier>{674c7dca-1729-4d31-a985-26cb754af979}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Services">
+      <UniqueIdentifier>{faabecba-b8b3-43cf-857b-b9fa3a141af8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Utils">
+      <UniqueIdentifier>{6ba0c08c-0d79-46ad-9d06-c336a2db64c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Utils\Png">
+      <UniqueIdentifier>{1fca473e-af9a-4f2e-bdca-823f4df11589}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Utils\Text">
+      <UniqueIdentifier>{92985795-9574-495c-a5f9-8ce4faa1f4a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Windows">
+      <UniqueIdentifier>{2681a207-519f-4db3-bf1c-1c48dedbdd65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Windows\OpenGL">
+      <UniqueIdentifier>{48771b32-83e3-4b90-bb76-fbbd124453a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Math">
+      <UniqueIdentifier>{4f1f5881-1f22-43a8-8b57-ff23d2c5c72f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Audio">
+      <UniqueIdentifier>{2c616d26-c58f-4c81-a48a-8dacad40de9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Debug">
+      <UniqueIdentifier>{a0c92462-33eb-4ba6-9ed4-539b6c73a5c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Services\DebugUI">
+      <UniqueIdentifier>{9c7ba540-d760-4701-9b74-3a31642f9c19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Services\Graphics">
+      <UniqueIdentifier>{ebe13f9f-702c-4175-95d4-48dd0bf97841}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Services\ResourceManager">
+      <UniqueIdentifier>{8f9a2af7-9107-457e-874f-f5ab261d0284}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Services\InputManager">
+      <UniqueIdentifier>{7dd17299-d905-4353-8cc1-706a0daf5090}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Animation">
+      <UniqueIdentifier>{6c13dfc9-5371-4eee-9222-725bdc95f7d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Services\AudioEngine">
+      <UniqueIdentifier>{2eef20cd-3d45-4c26-91a2-b6eeffd509ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Utils\Wave">
+      <UniqueIdentifier>{da2b9c49-44e0-4c20-ad50-f41664147f96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Audio">
+      <UniqueIdentifier>{1e3df175-9cc9-438f-b71c-fa26384b9731}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Fonts">
+      <UniqueIdentifier>{27a55b0b-848d-4ab1-9541-37d8593733d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Data">
+      <UniqueIdentifier>{369c38b7-92ea-48c9-836d-f8c9a1c30997}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Images">
+      <UniqueIdentifier>{3b65e50e-93b2-47de-99a2-2e70f2038710}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Libraries\lodepng\lodepng.h">
+      <Filter>Libraries\lodepng</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Libraries\jsoncpp\autolink.h">
+      <Filter>Libraries\jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Libraries\jsoncpp\config.h">
+      <Filter>Libraries\jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Libraries\jsoncpp\features.h">
+      <Filter>Libraries\jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Libraries\jsoncpp\forwards.h">
+      <Filter>Libraries\jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Libraries\jsoncpp\json.h">
+      <Filter>Libraries\jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Libraries\jsoncpp\json_batchallocator.h">
+      <Filter>Libraries\jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Libraries\jsoncpp\reader.h">
+      <Filter>Libraries\jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Libraries\jsoncpp\value.h">
+      <Filter>Libraries\jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Libraries\jsoncpp\writer.h">
+      <Filter>Libraries\jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Audio\Audio.h">
+      <Filter>Framework\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Core\Drawable.h">
+      <Filter>Framework\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Core\Transformable.h">
+      <Filter>Framework\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Debug\Log.h">
+      <Filter>Framework\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Debug\Profile.h">
+      <Filter>Framework\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Events\Event.h">
+      <Filter>Framework\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Events\EventDispatcher.h">
+      <Filter>Framework\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Events\EventHandler.h">
+      <Filter>Framework\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Events\FullscreenEvent.h">
+      <Filter>Framework\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Events\MouseMovementEvent.h">
+      <Filter>Framework\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Events\MouseScrollWheelEvent.h">
+      <Filter>Framework\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Events\ResizeEvent.h">
+      <Filter>Framework\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Graphics\Camera.h">
+      <Filter>Framework\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Graphics\Color.h">
+      <Filter>Framework\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Graphics\GraphicTypes.h">
+      <Filter>Framework\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Graphics\Polygon.h">
+      <Filter>Framework\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Graphics\RenderTarget.h">
+      <Filter>Framework\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Graphics\Shader.h">
+      <Filter>Framework\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Graphics\Sprite.h">
+      <Filter>Framework\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Graphics\SpriteBatch.h">
+      <Filter>Framework\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Graphics\Texture.h">
+      <Filter>Framework\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Graphics\VertexData.h">
+      <Filter>Framework\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\IO\File.h">
+      <Filter>Framework\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Math\Math.h">
+      <Filter>Framework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Math\Matrix.h">
+      <Filter>Framework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Math\Rotation.h">
+      <Filter>Framework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Math\Vector2.h">
+      <Filter>Framework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Services\Services.h">
+      <Filter>Framework\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Services\ResourceManager\ResourceManager.h">
+      <Filter>Framework\Services\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Services\InputManager\InputManager.h">
+      <Filter>Framework\Services\InputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Services\Graphics\Graphics.h">
+      <Filter>Framework\Services\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Services\DebugUI\DebugUI.h">
+      <Filter>Framework\Services\DebugUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Utils\Png\Png.h">
+      <Filter>Framework\Utils\Png</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Windows\OpenGL\glext.h">
+      <Filter>Framework\Windows\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Windows\OpenGL\OpenGLExtensions.h">
+      <Filter>Framework\Windows\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Windows\OpenGL\wglext.h">
+      <Filter>Framework\Windows\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Windows\Application.h">
+      <Filter>Framework\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Windows\GameLoop.h">
+      <Filter>Framework\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Windows\GameWindow.h">
+      <Filter>Framework\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Windows\stdafx.h">
+      <Filter>Framework\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Windows\resource.h">
+      <Filter>Framework\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\GameDev2D.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Input\Keyboard.h">
+      <Filter>Framework\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Events\KeyUpEvent.h">
+      <Filter>Framework\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Input\Mouse.h">
+      <Filter>Framework\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Events\MouseButtonDownEvent.h">
+      <Filter>Framework\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game.h" />
+    <ClInclude Include="Source\Constants.h" />
+    <ClInclude Include="Source\Framework\Animation\Animator.h">
+      <Filter>Framework\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Animation\Easing.h">
+      <Filter>Framework\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Audio\AudioTypes.h">
+      <Filter>Framework\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Events\AudioEvent.h">
+      <Filter>Framework\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Events\GamePadButtonDownEvent.h">
+      <Filter>Framework\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Events\GamePadButtonUpEvent.h">
+      <Filter>Framework\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Events\GamePadConnectedEvent.h">
+      <Filter>Framework\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Events\GamePadDisconnectedEvent.h">
+      <Filter>Framework\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Events\GamePadLeftThumbStickEvent.h">
+      <Filter>Framework\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Events\GamePadLeftTriggerEvent.h">
+      <Filter>Framework\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Events\GamePadRightThumbStickEvent.h">
+      <Filter>Framework\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Events\GamePadRightTriggerEvent.h">
+      <Filter>Framework\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Graphics\AnimatedSprite.h">
+      <Filter>Framework\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Graphics\SpriteAtlas.h">
+      <Filter>Framework\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Graphics\SpriteFont.h">
+      <Filter>Framework\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Input\GamePad.h">
+      <Filter>Framework\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Math\Random.h">
+      <Filter>Framework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Services\AudioEngine\AudioEngine.h">
+      <Filter>Framework\Services\AudioEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Utils\Text\Text.h">
+      <Filter>Framework\Utils\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Utils\Wave\Wave.h">
+      <Filter>Framework\Utils\Wave</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Events\UpdateEvent.h">
+      <Filter>Framework\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Events\TextureResourceEvent.h">
+      <Filter>Framework\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Events\KeyRepeatEvent.h">
+      <Filter>Framework\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Events\KeyDownEvent.h">
+      <Filter>Framework\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\Events\MouseButtonUpEvent.h">
+      <Filter>Framework\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\GameDev2D_Settings.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Libraries\lodepng\lodepng.cpp">
+      <Filter>Libraries\lodepng</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Libraries\jsoncpp\json_reader.cpp">
+      <Filter>Libraries\jsoncpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Libraries\jsoncpp\json_value.cpp">
+      <Filter>Libraries\jsoncpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Libraries\jsoncpp\json_writer.cpp">
+      <Filter>Libraries\jsoncpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Audio\Audio.cpp">
+      <Filter>Framework\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Core\Drawable.cpp">
+      <Filter>Framework\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Core\Transformable.cpp">
+      <Filter>Framework\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Debug\Log.cpp">
+      <Filter>Framework\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Debug\Profile.cpp">
+      <Filter>Framework\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Events\Event.cpp">
+      <Filter>Framework\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Events\EventDispatcher.cpp">
+      <Filter>Framework\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Events\EventHandler.cpp">
+      <Filter>Framework\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Events\FullscreenEvent.cpp">
+      <Filter>Framework\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Events\MouseMovementEvent.cpp">
+      <Filter>Framework\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Events\MouseScrollWheelEvent.cpp">
+      <Filter>Framework\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Events\ResizeEvent.cpp">
+      <Filter>Framework\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Graphics\Camera.cpp">
+      <Filter>Framework\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Graphics\Color.cpp">
+      <Filter>Framework\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Graphics\Polygon.cpp">
+      <Filter>Framework\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Graphics\RenderTarget.cpp">
+      <Filter>Framework\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Graphics\Shader.cpp">
+      <Filter>Framework\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Graphics\Sprite.cpp">
+      <Filter>Framework\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Graphics\SpriteBatch.cpp">
+      <Filter>Framework\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Graphics\Texture.cpp">
+      <Filter>Framework\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Graphics\VertexData.cpp">
+      <Filter>Framework\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\IO\File.cpp">
+      <Filter>Framework\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Math\Math.cpp">
+      <Filter>Framework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Math\Matrix.cpp">
+      <Filter>Framework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Math\Rotation.cpp">
+      <Filter>Framework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Math\Vector2.cpp">
+      <Filter>Framework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Services\Services.cpp">
+      <Filter>Framework\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Services\ResourceManager\ResourceManager.cpp">
+      <Filter>Framework\Services\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Services\InputManager\InputManager.cpp">
+      <Filter>Framework\Services\InputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Services\Graphics\Graphics.cpp">
+      <Filter>Framework\Services\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Services\DebugUI\DebugUI.cpp">
+      <Filter>Framework\Services\DebugUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Utils\Png\Png.cpp">
+      <Filter>Framework\Utils\Png</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Windows\OpenGL\OpenGLExtensions.cpp">
+      <Filter>Framework\Windows\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Windows\Application.cpp">
+      <Filter>Framework\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Windows\GameLoop.cpp">
+      <Filter>Framework\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Windows\GameWindow.cpp">
+      <Filter>Framework\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Windows\stdafx.cpp">
+      <Filter>Framework\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\GameDev2D.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Input\Keyboard.cpp">
+      <Filter>Framework\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Events\KeyUpEvent.cpp">
+      <Filter>Framework\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Input\Mouse.cpp">
+      <Filter>Framework\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Events\MouseButtonDownEvent.cpp">
+      <Filter>Framework\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WinMain.cpp" />
+    <ClCompile Include="Source\Game.cpp" />
+    <ClCompile Include="Source\Framework\Animation\Animator.cpp">
+      <Filter>Framework\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Animation\Easing.cpp">
+      <Filter>Framework\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Events\AudioEvent.cpp">
+      <Filter>Framework\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Events\GamePadButtonDownEvent.cpp">
+      <Filter>Framework\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Events\GamePadButtonUpEvent.cpp">
+      <Filter>Framework\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Events\GamePadConnectedEvent.cpp">
+      <Filter>Framework\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Events\GamePadDisconnectedEvent.cpp">
+      <Filter>Framework\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Events\GamePadLeftThumbStickEvent.cpp">
+      <Filter>Framework\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Events\GamePadLeftTriggerEvent.cpp">
+      <Filter>Framework\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Events\GamePadRightThumbStickEvent.cpp">
+      <Filter>Framework\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Events\GamePadRightTriggerEvent.cpp">
+      <Filter>Framework\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Graphics\AnimatedSprite.cpp">
+      <Filter>Framework\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Graphics\GraphicTypes.cpp">
+      <Filter>Framework\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Graphics\SpriteAtlas.cpp">
+      <Filter>Framework\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Graphics\SpriteFont.cpp">
+      <Filter>Framework\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Input\GamePad.cpp">
+      <Filter>Framework\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Math\Random.cpp">
+      <Filter>Framework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Services\AudioEngine\AudioEngine.cpp">
+      <Filter>Framework\Services\AudioEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Utils\Text\Text.cpp">
+      <Filter>Framework\Utils\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Utils\Wave\Wave.cpp">
+      <Filter>Framework\Utils\Wave</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Events\TextureResourceEvent.cpp">
+      <Filter>Framework\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Events\UpdateEvent.cpp">
+      <Filter>Framework\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Events\KeyRepeatEvent.cpp">
+      <Filter>Framework\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Events\KeyDownEvent.cpp">
+      <Filter>Framework\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\Events\MouseButtonUpEvent.cpp">
+      <Filter>Framework\Events</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source\Libraries\jsoncpp\json_internalarray.inl">
+      <Filter>Libraries\jsoncpp</Filter>
+    </None>
+    <None Include="Source\Libraries\jsoncpp\json_internalmap.inl">
+      <Filter>Libraries\jsoncpp</Filter>
+    </None>
+    <None Include="Source\Libraries\jsoncpp\json_valueiterator.inl">
+      <Filter>Libraries\jsoncpp</Filter>
+    </None>
+    <None Include="Assets\Shaders\passThrough.fsh">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+    <None Include="Assets\Shaders\passThrough.vsh">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+    <None Include="Assets\Shaders\passThrough-spriteBatch.fsh">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+    <None Include="Assets\Shaders\passThrough-spriteBatch.vsh">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+    <None Include="Assets\Shaders\passThrough-texure.fsh">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+    <None Include="Assets\Shaders\passThrough-texure.vsh">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+    <None Include="Assets\Shaders\passThrough-debug.fsh">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+    <None Include="Assets\Shaders\passThrough-debug.gsh">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+    <None Include="Assets\Shaders\passThrough-debug.vsh">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+    <None Include="Assets\Fonts\heavy_data_150.json">
+      <Filter>Assets\Fonts</Filter>
+    </None>
+    <None Include="Assets\Fonts\OpenSans-CondBold_22.json">
+      <Filter>Assets\Fonts</Filter>
+    </None>
+    <None Include="Assets\Fonts\OpenSans-CondBold_32.json">
+      <Filter>Assets\Fonts</Filter>
+    </None>
+    <None Include="Assets\Fonts\slkscr_32.json">
+      <Filter>Assets\Fonts</Filter>
+    </None>
+    <None Include="Assets\Fonts\slkscr_42.json">
+      <Filter>Assets\Fonts</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Source\Framework\Windows\Icon.ico">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Fonts\heavy_data_150.png">
+      <Filter>Assets\Fonts</Filter>
+    </Image>
+    <Image Include="Assets\Fonts\OpenSans-CondBold_22.png">
+      <Filter>Assets\Fonts</Filter>
+    </Image>
+    <Image Include="Assets\Fonts\OpenSans-CondBold_32.png">
+      <Filter>Assets\Fonts</Filter>
+    </Image>
+    <Image Include="Assets\Fonts\slkscr_32.png">
+      <Filter>Assets\Fonts</Filter>
+    </Image>
+    <Image Include="Assets\Fonts\slkscr_42.png">
+      <Filter>Assets\Fonts</Filter>
+    </Image>
+    <Image Include="Assets\Images\Ship.png">
+      <Filter>Assets\Images</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Source\Framework\Windows\Resource.rc">
+      <Filter>Assets</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="Source\Framework\Windows\DeclareDPIAware.manifest">
+      <Filter>Framework\Windows</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Assets\Audio\Fanfare.wav">
+      <Filter>Assets\Audio</Filter>
+    </Media>
+    <Media Include="Assets\Audio\Secret.wav">
+      <Filter>Assets\Audio</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
